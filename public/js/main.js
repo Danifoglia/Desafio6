@@ -14,6 +14,7 @@ formAgregarProducto.addEventListener('submit', e => {
     };
 
     socket.emit('new-product', producto);
+    formAgregarProducto.reset();
     return false;  
 })
 
