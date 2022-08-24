@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+}
+
+label {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.jumbotron {
+    min-height: 100vh;
+}
+
+.texto-azul{
+    color: blue;
+}
+.texto-marron{
+    color: brown;
+}
+.texto-verde{
+    color: green;
+}

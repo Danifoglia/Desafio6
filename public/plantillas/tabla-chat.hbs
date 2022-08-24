@@ -1,0 +1,19 @@
+<style>
+    .table td,
+    .table th {
+        vertical-align: middle;
+    }
+</style>
+
+{{#if mensajes.length}}
+<h2>CHAT</h2>
+        {{#each mensajes}}
+                 
+                <div>
+                    <b class="texto-azul">{{this.author}}</b>
+                    <span class="texto-marron">[{{this.date}}]:</span>
+                    <i class="texto-verde">{{this.text}}</i>                   
+                </div>
+                
+        {{/each}} 
+{{/if}}
